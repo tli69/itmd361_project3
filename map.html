@@ -4,26 +4,24 @@
     <meta charset="UTF-8">
 	<title>Map</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-	<script src="map.js"></script>
+	<script src="js/map.js"></script>
 </head>
-<body>
+  <body>
 	<header>
-		<nav>
-			<ul>
-				<li><a href="index.html" title="homepage">homepage</a></li>
-				<li><a href="page2.html" title="resumepage">resumepage</a></li>
-				<li><a href="page3.html" title="soccerteampage">soccerteampage</a></li>
-				<li><a href="map.html" title="map">map</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div id="map"></div>
-	<div id="features">
-		<button onclick="toggleMarkers()">Toggle Markers</button>
-		<button onclick="clearMarkers()">Clear Markers</button>
-		<button onclick="zoomToMarkers()">Zoom to Markers</button>
-	</div>
-</body>
+	<nav>
+		<ul>
+		<li><a href="index.html" title="homepage">homepage</a></li>
+		<li><a href="page2.html" title="resumepage">resumepage</a></li>
+		<li><a href="page3.html" title="soccerteampage">soccerteampage</a></li>
+		<li><a href="map.html" title="map">map</a></li>
+		</ul>
+	</nav>
+</header> 
+    <div id="map"></div>
+
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCp67oCkt3F0nI5YCbC0LEGtEmYX9eny9w&callback=initMap">
+</script>
+  </body>
 </html>
 

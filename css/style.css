@@ -129,3 +129,91 @@ h1, h2, h3, h4, h5, h6 {
 #Title {
   font-family: 'Pacifico', cursive;
 }
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+    /* Modify the font size and padding of the header links */
+    header nav ul li a {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    /* Modify the font size of the h1 */
+    h1 {
+        font-size: 2rem;
+    }
+
+    /* Modify the font size of the h2 */
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Modify the font size of the h3 */
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Modify the font size of the h4 */
+    h4 {
+        font-size: 1rem;
+    }
+
+    /* Modify the font size of the p */
+    p {
+        font-size: 1rem;
+    }
+
+    /* Modify the font size of the ul and ol */
+    ul, ol {
+        font-size: 1rem;
+    }
+
+    /* Modify the width of the images */
+    .planetImg {
+        width: 100%;
+    }
+}
+
+/* Media query for screens larger than 768px */
+@media (min-width: 768px) {
+    /* Modify the font size and padding of the header links */
+    header nav ul li a {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    /* Modify the font size of the h1 */
+    h1 {
+        font-size: 3rem;
+    }
+
+    /* Modify the font size of the h2 */
+    h2 {
+        font-size: 2rem;
+    }
+
+    /* Modify the font size of the h3 */
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    /* Modify the font size of the h4 */
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    /* Modify the font size of the p */
+    p {
+        font-size: 1.2rem;
+    }
+
+    /* Modify the font size of the ul and ol */
+    ul, ol {
+        font-size: 1.2rem;
+    }
+
+    /* Modify the width of the images */
+    .planetImg {
+        width: 80%;
+    }
+}

@@ -1,0 +1,131 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+#Title {
+  text-align: center;
+  color: #00bcd4;
+}
+
+section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+.planetImg {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  height: auto;
+  padding: 10px;
+}
+
+#anime {
+  margin-top: 50px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+a {
+  font-size: 16px;
+  font-weight: normal;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Lobster */
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+/* Pacifico */
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+#Title {
+  font-family: 'Pacifico', cursive;
+}
